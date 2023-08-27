@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="logo">
+        <a href="#" id="logo"><img src="./images/logo.svg" alt="Site logo"></a>
+      </div>
+    </header>
+
+    <section class="hero-image">
+      <picture>
+        <source srcset="./images/hero-desktop.jpg" media="(min-width: 376px)">
+        <img class="hero-mobile" src="./images/hero-mobile.jpg"  alt="Hero image for mobile"/>
+      </picture>
+  </section> 
+    <main>
+      <section class="form-intro">
+
+        <div class="intro-text">
+
+        <h1 class="title">
+          <span>We're</span>
+          <br/>
+          coming
+          <br/>
+          soon
+        </h1>
+        <p class="description">Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+      </div> 
+
+        <form class="signup-form" novalidate>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Email Address">
+            <span class="error-icon"><img src="./images/icon-error.svg" alt="Form validation error icon"></span>
+            <button class="btn-submit" aria-label="Submit form"><img src="./images/icon-arrow.svg" alt="Form submit button arrow icon"></button>
+            <p class="validation-message"></p>
+        </form>
+
+      </section>
+    </main>
+</div>
+ 
+  <script src="script.js"></script>
+
+  </body>
+</html>
